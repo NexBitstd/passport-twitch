@@ -1,6 +1,6 @@
 {
   "name": "@nexbitstd/passport-twitch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Twitch (OAuth) authentication strategies for Passport.",
   "keywords": [
     "passport",
