@@ -1,5 +1,5 @@
 {
-  "name": "passport-twitch",
+  "name": "@nexbitstd/passport-twitch",
   "version": "1.0.3",
   "description": "Twitch (OAuth) authentication strategies for Passport.",
   "keywords": [
@@ -21,9 +21,9 @@
     "url": "http://github.com/Schmoopiie/passport-twitch/issues"
   },
   "author": {
-    "name": "Schmoopiie",
-    "email": "Schmoopiie@gmail.com",
-    "url": "http://www.schmoopiie.com/"
+    "name": "Dalynkaa",
+    "email": "admin@nexbit.dev",
+    "url": "http://www.nexbit.dev/"
   },
   "licenses": [
     {
@@ -46,8 +46,12 @@
     {
       "name": "Schmoopiie",
       "email": "Schmoopiie@gmail.com"
+    },
+    {
+      "name": "Dalynkaa",
+      "email": "admin@nexbit.dev"
     }
   ],
   "directories": {},
-  "homepage": "https://github.com/Schmoopiie/passport-twitch"
+  "homepage": "https://github.com/nexbitstd/passport-twitch"
 }
