@@ -1,57 +1,41 @@
 {
-  "name": "@nexbitstd/passport-twitch",
-  "version": "1.0.4",
-  "description": "Twitch (OAuth) authentication strategies for Passport.",
-  "keywords": [
-    "passport",
-    "twitch",
-    "auth",
-    "authn",
-    "authentication",
-    "identity",
-    "oauth",
-    "oauth2",
-    "strategy"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Schmoopiie/passport-twitch.git"
-  },
-  "bugs": {
-    "url": "http://github.com/Schmoopiie/passport-twitch/issues"
-  },
-  "author": {
-    "name": "Dalynkaa",
-    "email": "admin@nexbit.dev",
-    "url": "http://www.nexbit.dev/"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
-  "main": "./lib/passport-twitch",
-  "dependencies": {
-    "passport-oauth2": "^1.1.2",
-    "pkginfo": "0.2.x"
-  },
-  "devDependencies": {
-    "vows": "0.6.x"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "maintainers": [
-    {
-      "name": "Schmoopiie",
-      "email": "Schmoopiie@gmail.com"
+    "name": "@oauth-everything/passport-twitch",
+    "version": "1.0.3",
+    "description": "Twitch OAuth 2.0 strategy for Passport.js",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "lint": "eslint ./src/**/*.ts",
+        "build": "tsc -p .",
+        "clean": "rimraf dist",
+        "build-full": "npm run clean && npm run lint && npm run build"
     },
-    {
-      "name": "Dalynkaa",
-      "email": "admin@nexbit.dev"
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/oauth-everything/passport-twitch.git"
+    },
+    "keywords": [
+        "oauth",
+        "twitch",
+        "passport"
+    ],
+    "author": "Tyler Schrock <tschrock123@gmail.com>",
+    "license": "MPL-2.0",
+    "bugs": {
+        "url": "https://github.com/oauth-everything/passport-twitch/issues"
+    },
+    "homepage": "https://github.com/oauth-everything/passport-twitch",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.38.0",
+        "@typescript-eslint/parser": "^5.38.0",
+        "eslint": "^8.23.1",
+        "rimraf": "^3.0.0",
+        "typescript": "^4.8.3"
+    },
+    "dependencies": {
+        "@oauth-everything/oauth2-types": "^1.0.1",
+        "@oauth-everything/profile": "^1.0.0",
+        "@types/passport-oauth2": "^1.4.8",
+        "passport-oauth2": "^1.6.0"
     }
-  ],
-  "directories": {},
-  "homepage": "https://github.com/nexbitstd/passport-twitch"
 }
